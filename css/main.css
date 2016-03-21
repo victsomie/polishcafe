@@ -1,3 +1,4 @@
+/*Style the Nav*/
 nav{
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
@@ -6,8 +7,7 @@ nav{
     background-color: dimgrey;
     background-size: contain;
     background-position: center;
-    padding: 40px;
-    
+    padding: 30px; 
 }
 
 nav a{
@@ -15,11 +15,19 @@ nav a{
     padding-left: 5px;   
     color: black;
 }
+nav a:hover{
+    color: red;
+}
 
+
+
+
+
+
+
+/*--re-style the cd title--*/
 .cd-title{
-    background-image: url(/images/topbgimg.jpg);
-    background-position: 50% -60%;
-    background-size: cover;
+
 
 }
 .cd-title h1{
@@ -27,11 +35,25 @@ nav a{
     color: white;
     font-size: 70px;
     font-weight: 900;
-    }
+    background-image: url(/images/topbgimg.jpg);
+    background-position: 50% -60%;
+    background-size: cover;
+    line-height: 200px;
+}
+
+b{
+    text-align: center;
+}
+
+
+
+
+
 
 
 /*<!--Create menu ection container and style it--*/
 #menu{
+    margin: auto;
     background-image: url(/images/menubg.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -54,6 +76,8 @@ table{
     font-weight: 800;
     opacity: .9;
 }
+
+/*========tt is the table title row ======*/
 .tt{
     text-align: center;
     font-weight: 800;
@@ -71,6 +95,11 @@ td{
     font-weight: 800;
 }
 
+table caption{
+        text-align: center;
+    font-weight: 800;
+    font-size: 50px;
+}
 
 table tr td:nth-child(1){
     color: black;;
