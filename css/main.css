@@ -1,0 +1,31 @@
+nav{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 33px;
+    font-weight: 800;
+    background-color: dimgrey;
+        padding: 50px
+}
+
+
+
+nav a{
+    padding-right: 5px;
+    padding-left: 5px;   
+    
+}
+nav a:hover{
+    color: white;
+}
+
+
+
+
+        
+    .cd-title h1{
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+
+body{
+    
+}
