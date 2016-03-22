@@ -26,6 +26,13 @@ nav a:hover{
 
 
 /*--re-style the cd title--*/
+.cd-intro img{
+    width: 500px;
+    height: 200px;
+}
+
+
+
 .cd-title{
 
 
@@ -111,5 +118,75 @@ table tr td:nth-child(2){
 }
 table tr td:nth-child(4){
     color: darkred;
+}
+
+
+
+h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+
+
+
+/*=============Style form section=========================*/
+.con{
+    margin: auto;
+    width: 70%;
+    font-size: 25px;
+}
+
+
+fieldset{
+    font-size: 40px;
+    font-weight: 300;
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 5px
+}
+
+.contact-intro{
+    text-align: center;
+    padding: 40px;
+    
+}
+legend{
+   margin-left: 40px;
+}
+
+label{
+    font-weight: 400;
+}
+input, textarea{
+    background-color:antiquewhite;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  
+    font-size: 30px
+}
+.msg-box{
+    width: 100%;
+}
+
+.form-btn{
+    color: darkred;
+    background-color: slategray;
+}
+
+
+/*============style the location section====================*/
+
+.loc{
+    margin: auto;
+    width: 70%;
+    min-height: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+iframe{
+    margin: auto;
+    width: 100%;
+    min-height: 100%;
 }
     
